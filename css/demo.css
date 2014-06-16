@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+#grid {
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+}
+#grid img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    display: block;
+}
+.animate {
+    font: 12px;
+    text-transform: uppercase;
+    background-color: rgb(0,100,0);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.animate:hover {
+    background-color: rgb(0,75,0);
+}
